@@ -90,7 +90,7 @@ def num2chinese(num, big=False, simp=True, o=False, twoalt=False):
     return ''.join(result)
 
 
-out = open('平安经.txt', 'w')
+out = open('平安经.txt', 'w',encoding='utf-8')
 
 sys.stdout = out
 
